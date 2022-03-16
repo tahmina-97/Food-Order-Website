@@ -1,0 +1,139 @@
+/* 
+Author: tahmina ria 
+theme: food-order website admin
+version:1 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+/* css for menu */
+.menu {
+    border-bottom: 2px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* css for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 2% 0;
+}
+.box{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align:left ;
+}
+table tr td{
+    padding: 1% 2px;
+    font-size: small;
+   
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #146cc4;
+}
+
+.btn-secondary{
+    background-color: #45bd6b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #368d52;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #f13552;
+}
+.tbl-30{
+    width: 30%;
+}
+
+.categories::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.success{
+    color: #3b9e64;
+}
+
+.error{
+    color: #ff4757;
+}
+
+
+/* css for footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* CSS for Login */
+
+.login{
+    border: 1px solid grey;
+    width:20%;
+    margin: 10% auto;
+    padding: 2%;
+}
